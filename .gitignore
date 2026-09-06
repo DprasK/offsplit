@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+
+# Offsplit runtime output
+/offsplit-inbox/
+/offsplit-completed/
+/downloads/
+/demo-50mb.bin
+/demo-50mb.parts/
+
+# Android/Gradle output
+**/.gradle/
+**/build/
+**/local.properties
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+*.apk
+*.aab
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
